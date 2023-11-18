@@ -36,7 +36,7 @@
                     <h2 class="title">Startup Diagnosis</h2>
 
 
-                    <form method="POST">
+                    <form method="POST"  onsubmit="myFunction()" >
                         <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="NAME" name="name">
                         </div>
@@ -579,7 +579,11 @@
             </div>
         </div>
     </div>
-
+    <script>
+    function myFunction() {
+      alert("The form has been successfully submitted!");
+    }
+    </script>
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Vendor JS-->
